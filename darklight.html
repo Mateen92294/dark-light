@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark mode</title>
     <link rel="stylesheet" href="/darklight.css">
-    <script src="/darklight.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
 </head>
 <body>
+    <!-- dark switch mode -->
     <div class="theme-switch-wrapper">
         <span id="toggle-icon">
             <span class="toggle-text">Light Mode</span>
@@ -18,40 +18,45 @@
             <input type="checkbox">
             <div class="slider round"></div>
         </label>
-
     </div>
+
+    <!-- Navigation -->
     <nav id="nav">
-        <!-- <div><i class="fa fa-home" aria-hidden="true"></i></div> -->
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
-        <a href="#project">PROJECT</a>
+        <a href="#projects">PROJECT</a>
         <a href="#contact">CONTACT</a>
     </nav>
 
+    <!-- Home section -->
     <section id="home">
         <div class="title-group">
             <h1>Custom Title Here</h1>
             <H2>Welcome to the website!</H2>
         </div>
     </Section>
+
+    <!-- about section -->
     <section id="about">
         <h1>Undraw Illustrations</h1>
         <div class="about-container">
             <div class="image-container">
                 <h2>Web innovation</h2>
-                <img src="/light 1.svg" alt="Man with lense" id="image1">
+                <img src="/concept_light.svg" alt="Man with lense" id="image1">
             </div>
             <div class="image-container">
                 <h2>Problem solving</h2>
-                <img src="/Light 2.svg" alt="Girl with sunflower" id="image2">
+                <img src="/feeling_light.svg" alt="Girl with sunflower" id="image2">
             </div>
             <div class="image-container">
                 <h2>High concept</h2>
-                <img src="/Light 3.svg" alt="Screen" id="image3">
+                <img src="/proud_light.svg" alt="Screen" id="image3">
             </div>
         </div>
     </section>
-    <Section id="project">
+
+    <!-- projects section -->
+    <Section id="projects">
         <h1>Buttons</h1>
         <div class="buttons">
             <button class="primary">Primary</button>
@@ -64,8 +69,9 @@
         <div class="text-box" id="text-box">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dicta dolor hic fugit perferendis consequuntur fugiat maxime libero quibusdam rem, accusantium illo iure necessitatibus, recusandae voluptatum consectetur, culpa doloribus totam.</p>
         </div>
-
     </Section>
+
+    <!-- contact section -->
     <section id="contact">
         <div class="social-icons">
             <i class="fab fa-github"></i>
@@ -76,5 +82,8 @@
             <i class="fab fa-youtube"></i>    
         </div>
     </section>
+
+    <!-- script -->
+    <script src="/darklight.js"></script>
 </body>
 </html>
